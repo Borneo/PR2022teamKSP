@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="panda_pick_and_place">
+  
+  <include>
+      <uri>model://wall</uri>
+      <pose>0.4 0.0 0.0 0. -0 -1.5708</pose>
+      <static>1</static>
+    </include>
+    
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    
+    <include>
+      <uri>model://stone</uri>
+      <pose>0.4 -0.4 0.01 0.0 0.0 0.0</pose>
+    </include>
+  </world>-->
+  
+  
+  
+</sdf>
+
+
+<!--A stone <mesh filename="package://robot_description/meshes/base_link.DAE"/>-->
+
+
+
+
